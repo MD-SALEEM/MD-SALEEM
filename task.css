@@ -1,0 +1,47 @@
+body{margin: 0; padding: 0;overflow-x: hidden;}
+
+/*navbar=============*/
+.navbar{
+	background-color: #fff; box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;}
+
+/*SelectBox*/
+#section1 select{border-radius: 15px;}
+/* Cards======================= */
+.carousel{margin-left: 18%; width: 65%; height: auto; }
+
+.carousel-cell{width: 250px; height: 400px; }
+
+.carousel-cell img{
+	margin-left: 15px; margin-top: 20px; text-align: center; border: none; border-radius: 8px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.carousel-cell .crdtitle{font-size: 9px; font-weight: bold;}
+
+.carousel-cell .pricespan{
+	color: red; padding: 10px 0px; font-weight: bold; font-size: 15px; font-family: 'Graduate', cursive; text-align: left;
+}
+.carousel-cell li{font-size: 9px;}
+
+.flickity-button{background: black;}
+
+/* arrow color */
+.flickity-prev-next-button .arrow {fill: red; background-color: red;}
+.flickity-prev-next-button.no-svg {color: red;}
+
+/*Dots*/
+.carousel .flickity-page-dots .dot {background: transparent;}
+
+/* position outside */
+.flickity-prev-next-button.previous {margin-left: -80px;}
+.flickity-prev-next-button.next {margin-right: -80px;}
+
+/*footer=============*/
+#footer li{font-size: 40px; color: red;}
+.fa {
+	padding: 10px; font-size: 20px; width: 40px; height: 35px; text-align: center; text-decoration: none;}
+.fa:hover {opacity: 0.7;}
+.fa-facebook {background: #3B5998; color: white;}
+.fa-twitter {background: #55ACEE; color: white;}
+.fa-google-plus {background: #dd4b39; color: white;}
+.fa-pinterest {background: #cb2027; color: white;}
+.fa-youtube {background: #bb0000; color: white;}
+#footer p{font-size: 13px;font-weight: bold;}
